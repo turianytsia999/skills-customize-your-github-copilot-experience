@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "fastapi-sqlite",
+      "title": "Persisting FastAPI Data with SQLite",
+      "description": "Connect a FastAPI book service to SQLite for persistent data storage",
+      "path": "assignments/fastapi-sqlite",
+      "dueDate": "2026-11-01",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
