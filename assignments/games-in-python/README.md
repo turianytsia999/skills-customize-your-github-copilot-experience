@@ -1,19 +1,40 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Hangman Game
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a text-based Hangman game in Python. Practice string manipulation, loops, conditionals, user input, and random selection while creating a game that players can win or lose.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Create the Game Setup
 
-## ✅ Must Have's
+#### Description
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+Create the data and game setup needed to start a Hangman round. The program should randomly choose one word from a predefined list and prepare a hidden version of the word for the player.
+
+#### Requirements
+
+Completed program should:
+
+- Store at least five possible words in a predefined list.
+- Randomly select one word from the list for each game.
+- Display the hidden word as underscores separated by spaces, such as `_ _ _ _ _`.
+- Set a limit for the number of incorrect guesses.
+
+### 🛠️ Implement the Guessing Loop
+
+#### Description
+
+Add the game loop that accepts letter guesses, updates the player’s progress, and ends when the player guesses the word or runs out of attempts.
+
+#### Requirements
+
+Completed program should:
+
+- Ask the player to enter one letter at a time.
+- Reveal every position containing a correctly guessed letter.
+- Decrease the remaining attempts after an incorrect guess.
+- Continue until the word is completely guessed or no attempts remain.
+- Display a clear win message when the player guesses the word.
+- Display a clear lose message and reveal the word when the player runs out of attempts.
